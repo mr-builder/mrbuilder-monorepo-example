@@ -1,0 +1,11 @@
+{
+  "name": "@mrbuilder/monorepo-example-example",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@mrbuilder/monorepo-example-build-tool": "^0.0.1"
+  },
+  "scripts": {
+    "prepare": "monorepo-example-build-tool",
+    "start": "monorepo-example-build-tool"
+  }
+}

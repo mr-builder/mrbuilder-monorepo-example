@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/juspears/.nvm/versions/node/v10.18.1/bin/node /usr/local/Cellar/yarn/1.21.1/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/juspears/.nvm/versions/node/v10.18.1/bin:/usr/local/apache-maven-3.3.9/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/juspears/WebstormProjects/mrbuilder-monorepo-example/node_modules/.bin:/Users/juspears/.nvm/versions/node/v10.18.1/bin:/usr/local/apache-maven-3.3.9/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  10.18.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://npm.paypal.com/@mrbuilder%2fmonorepo-example-build-tool: not_found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:66947:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:140665:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:141637:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "@mrbuilder/monorepo-example-example",
+    "version": "0.0.1",
+    "devDependencies": {
+      "@mrbuilder/monorepo-example-build-tool": "^0.0.1"
+    },
+    "scripts": {
+      "prepare": "monorepo-example-build-tool",
+      "start": "monorepo-example-build-tool"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

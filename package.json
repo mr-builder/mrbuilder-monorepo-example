@@ -1,0 +1,8 @@
+{
+  "name": "@mrbuilder/monorepo-example-project",
+  "private": true,
+  "workspaces": [
+    "./packages/*",
+    "builder"
+  ]
+}
